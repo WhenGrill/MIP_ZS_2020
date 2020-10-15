@@ -2,7 +2,7 @@
 ## Článok podľa rámcovej témy  
 Repozitár k projektu spracovania zadanej témy vo forme článku a prezentácie z predmetu Metódy inžinierskej práce (MIP).  
   
-Autor : Lukáš Štrbo
+Autor : Lukáš Štrbo  
 Semester : 1. (ZS 2020/2021)  
   
 ## Rámcová téma : Organizácia vzdelávania  
