@@ -1,6 +1,10 @@
 # Created by https://www.toptal.com/developers/gitignore/api/latex,vscode
 # Edit at https://www.toptal.com/developers/gitignore?templates=latex,vscode
 
+### WORD ###
+*.doc
+*.docx
+
 ### LaTeX ###
 ## Core latex/pdflatex auxiliary files:
 *.aux
@@ -23,7 +27,7 @@
 # these rules might exclude image files for figures etc.
 # *.ps
 # *.eps
-*.pdf
+#*.pdf
 
 
 ## Bibliography auxiliary files (bibtex/biblatex/biber):
