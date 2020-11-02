@@ -11,6 +11,9 @@
 \usepackage{cite}
 %\usepackage{times}
 
+%Nastavenie cesty pre obrazky
+\graphicspath{ {./images/} }
+
 \pagestyle{headings}
 
 \title{Aplikácie a riešenia dištančného vzdelávania a e-vzdelávania\thanks{Semestrálny projekt v predmete Metódy inžinierskej práce, ak. rok 2020/21, vedenie: Ing. Fedor Lehocki, PhD.}}
@@ -21,7 +24,7 @@
 	{\small \texttt{xstrbol@stuba.sk}}
 	}
 
-\date{\small 29. október 2020}
+\date{\small 2. október 2020}
 
 
 
@@ -46,7 +49,7 @@ S e-vzdelávaním ide ruka v ruke dištančné vzdelávanie, ktoré hlavne v ťa
 Vzdelávanie sa prostredníctvom počítača a webu sa stáva stále viac populárnejšou a častejšou metódou výučby či sa jedná o školy alebo o samoukov. V súvislosti aj s celosvetovou pandémiou 
  COVID-19 bola väčšina škôl nútená prejsť na dištančné vzdelávanie. Pod dištančným vzdelávaním rozuemieme aj e-learning. Tieto výrazy si rozoberieme v kapitole\ref{rozdiely}.  
 
-\section{Rozdiel medzi dištančným vzdelávaním a e-vzdelávaním}
+\section{Definícia dištančného vzdelávania a e-vzdelávania}
 \label{rozdiely}
 \subsection{Dištančné vzdelávanie}
 Dištančné vzdelávanie zvyčajne zahŕňa situáciu, kde sú študenti oddelení od učiteľov na diaľku. Dištančné vzdelávanie zahŕňa poskytovanie systémov (elektronických alebo iných) na nadviazanie a udržiavanie komunikácie medzi učiteľmi a študentmi. Využíva určitú formu pedagogickej výmeny  medzi učiteľom a študentom na podporu učenia a hodnotenia.
@@ -55,13 +58,13 @@ Existujú 2 typy dištančného vzdelávania na základe interakcie študentov a
 \subsection{E-vzdelávanie}
 E-learning je prirodzene vhodný na dištančné a flexibilné vzdelávanie, ale dá sa použiť aj v spojení s výučbou tvárou v tvár. V takom prípade sa bežne používa termín Blended learning. E-learning môže tiež odkazovať na vzdelávacie webové stránky, ako napríklad webové stránky ponúkajúce pracovné listy a interaktívne cvičenia pre deti. Tento výraz sa široko používa aj v obchodnom sektore, kde sa všeobecne vzťahuje na nákladovo efektívne online školenie. E-Learning je využitie technológií na podporu a zlepšenie výučby. So zameraním na používanie internetu v e-vzdelávaní sa objavili tri hlavné spôsoby použitia. Jedná sa o elektronickú technológiu na poskytovanie, podporu a zdokonaľovanie výučby a učenia sa.\cite{elearningDef}
 
-\section{Typy dištančnej}
+\section{Typy dištančnej výučby}
 %Uvod do typov distancnej vyucby
 Dištančnou výučbou rozumieme :
 \begin{itemize}
 	\item \textbf{Technology-based training (TBT)} alebo aj e-vzdelávenie\cite{WiktorzakKotowski}
-	\item \textbf{Computer-based trainig (CBT)} ktorý používa počítače vo výučbovom procese na prenos znalostí, vykonávanie cvičení alebo simulácii. V rámci tohto konceptu sú aj rôzne kurzy, kedysi dodávané na CD.\cite{WiktorzakKotowski}
-	\item \textbf{Web-based training (WBT)} je typ dištančnej výučby, ktorý prebieha na internete prostredníctvom protokola TCP/IP. Zahŕňa prenos znalostí ako aj ich overenie, komunikáciu medzi používateľmi a riadením vzdelávacieho procesu s využitím webových stránok a webových aplikácií.\cite{WiktorzakKotowski}
+	\item \label{CBT} \textbf{Computer-based trainig (CBT)} ktorý používa počítače vo výučbovom procese na prenos znalostí, vykonávanie cvičení alebo simulácii. V rámci tohto konceptu sú aj rôzne kurzy, kedysi dodávané na CD.\cite{WiktorzakKotowski}
+	\item \label{WBT}\textbf{Web-based training (WBT)} je typ dištančnej výučby, ktorý prebieha na internete prostredníctvom protokola TCP/IP. Zahŕňa prenos znalostí ako aj ich overenie, komunikáciu medzi používateľmi a riadením vzdelávacieho procesu s využitím webových stránok a webových aplikácií.\cite{WiktorzakKotowski}
 \end{itemize}
 Vyššie spomenuté typy dištančnej výučby sú spojené s použítím špecifických technológií. 
 Avšak najviac používaný edukačný model kombinuje počítačovú technológiu s tradičným spôsobom vedenia tried na univerzitách.\\ 
@@ -74,6 +77,30 @@ Tradičná výučba môže nadobudnúť aj takú formu počas ktorej učiteľ ko
 	\item \textbf{Blended learning (BL)} alebo aj hybridné vyučovanie je spôsob výučby, ktorý kombinuje tradičný model výučby s dištančnou formou výučby.
 	V tomto modeli je obsah prednášok prednášaný väčšinou vzdialene a prebiehajú on-line konzultácie, zatiaľ čo cvičenia a praktické hodiny sa uskutočňujú na priamo univerzite prezenčnou formou.\cite{WiktorzakKotowski} 
 \end{itemize}
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{Vztahy_DE.png}
+	\caption{Vzťahy medzi pojmami v dištančnom vzdelávaní\cite{WiktorzakKotowski}}
+	\label{Vztahy_medzi_pojmami}
+\end{figure}
+
+%Referencia na obrazok
+Vzťahy medzi pojmami spojenými s dištančným vzdelávaním sú znázornené na obrázku \ref{Vztahy_medzi_pojmami}.
+Oblasť dištančného vzdelávania pokrýva širokú oblasť technológií a metód vzdelávania. 
+Je to okrem iného spôsobené potrebou neustálej odbornej prípravy v čoraz viac oblastiach.
+V závislosti od prenášaného obsahu (napr. kurz v angličtine), sa používajú rôzne nástroje a rôzne techniky výučby.\cite{WiktorzakKotowski}
+%V nasledujúcej časti nájdete stručný popis nástrojov dištančného vzdelávania.
+
+\section{Vývoj podporných systémov pre dištančné vzdelávanie}%ALEBO : Podporne systemy pre distancne vzdelavanie
+
+
+\subsection{Komunikačné platformy}
+%Webex, Meet, MS TEAMS, porovnanie , obluba u studentov, vlastnosti
+\subsection{Edukačné platformy}
+%Edukacne platformy - Online testovanie , Edupage, AIS, Kurzy online, Moodle, ...
+
 
 \section{Výhody a nevýhody dištančnej výučby}
 \subsection{Výhody}
@@ -100,11 +127,7 @@ Tradičná výučba môže nadobudnúť aj takú formu počas ktorej učiteľ ko
 	\item Dlhodobé pracovanie na počítači má negatívny vplyv na zdravie, zrak, chrbticu.\cite{Sokolova2018}
 \end{itemize}
 
-\section{Podporné systémy dištančnej vúč}
-\subsection{Komunikačné platformy}
-%Webex, Meet, MS TEAMS, porovnanie , obluba u studentov, vlastnosti
-\subsection{Edukačné platformy}
-%Edukacne platformy - Online testovanie , Edupage, AIS, Kurzy online, Moodle, ...
+
 
 \section{Aplikácia dištančnej výučby v praxi}
 \subsection{Základné a stredné školy}
