@@ -5,6 +5,9 @@
 *.doc
 *.docx
 
+### IMAGES AND UMLET ###
+*.uxf
+
 ### LaTeX ###
 ## Core latex/pdflatex auxiliary files:
 *.aux
