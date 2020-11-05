@@ -10,12 +10,16 @@
 
 \usepackage{cite}
 %\usepackage{times}
+%\usepackage{fancyhdr}
+%\usepackage{csquotes} Uvodozvky    \enquote{TEXT}
 
 %Nastavenie cesty pre obrazky
 \graphicspath{ {./images/} }
 
-\pagestyle{headings}
-
+\pagestyle{headings} %{myheadings}, {fancy} zmiznu nazvy kapitol 
+%\fancyhf{}
+%\fancyhead[LE, RO]{\leftmark} LEFT EVEN, RIGHT ODD
+%\fancyhead[RE, LO]{\thepage}
 \title{Aplikácie a riešenia dištančného vzdelávania a e-vzdelávania\thanks{Semestrálny projekt v predmete Metódy inžinierskej práce, ak. rok 2020/21, vedenie: Ing. Fedor Lehocki, PhD.}}
 
 \author{Lukáš Štrbo\\[2pt]
@@ -94,6 +98,7 @@ V závislosti od prenášaného obsahu (napr. kurz v angličtine), sa používaj
 %V nasledujúcej časti nájdete stručný popis nástrojov dištančného vzdelávania.
 
 \section{Vývoj podporných systémov pre dištančné vzdelávanie}%ALEBO : Podporne systemy pre distancne vzdelavanie
+\label{Vyvojsys}
 Systémy podporujúce dištančné vzdelávanie boli pôvodne navrhnuté na výučbu pomocou počítača (CBT)\ref{CBT}. Tieto systémy sa neustále rovzvíjajú.
 S príchodom internetu sa objavilo veľa nástrojov, ktoré podporujú vzdelávanie prostredníctvom webu (WBT)\ref{WBT}.
 Pôvodne išlo len o statické stránky, ktoré poskytovali učebné materiály. Neskôr sa objavili dynamické stránky, ktoré vyžadovali určitú interakciu používateľov ako napríklad diskuzné fóra aôebo interaktívne cvičenia.
@@ -113,11 +118,28 @@ Vývoj podporných systémov je zobrazený na obrázku \ref{Vyvoj_podp_sys_DE}.
 	\label{Vyvoj_podp_sys_DE}
 \end{figure}
 
-\subsection{Komunikačné platformy}
+%\subsection{Najviac používané}
 %Webex, Meet, MS TEAMS, porovnanie , obluba u studentov, vlastnosti
-\subsection{Edukačné platformy}
+%\subsection{Edukačné platformy}
 %Edukacne platformy - Online testovanie , Edupage, AIS, Kurzy online, Moodle, ...
+\section{Výzvy vo vzdelávaní počas pandémie COVID-19}
+\subsection{Výučba počas pándémie COVID-19} %TOTO BOLA PREDTYM SEKCIA
+Kvôli pandémii COVID-19 boli školy a univerzity zatvorené a kvôli zabezpečeniu kontinuity vzdelávania sa z prezenčnej výučby prečlo na online výučbu.\cite{covid19}
+Sme tak svedkami núteného prerušenia klasikej organizácie vzdelávania, jej štruktúr a rutín.
+Prioritou všetkých vzdelávacích systémov sa stáva vyhýbanie sa prerušovaniu výučby. Preto sa stáva dôležitým zabezpečiť 
+výučbu aj v online priestore a zabezpečiť dôsledné spojenie medzi učiteľmi a žiakmi.
 
+Medzi rôzne iniciatívy, ktoré uprednostňujú vlády, školy alebo učitelia s cieľom efektívne osloviť študentov počas online výučby, patria:
+\begin{itemize}
+	\item Vypracovanie podporných dokumentov, ako sú metodiky, príručky, balíčky zdrojov pre presun výučby v online prostredí.
+	\item Využívanie špecializovaných platforiem pre online výučbu  a oficiálnych webových stránok, ktoré centralizujú iniciatívy v tejto oblasti.\ref{Vyvojsys}%KONTROLA !!!!
+	\item Podpora študentov a rodičov prostredníctvom častých správ, vysvetlení, otázok a odpovedí za pomoci používania e-mailov a sociálnych sietí.
+	\item Reorganizácia hodnotiacich postupov ako napríklad úprava alebo zrušenie skúšok, písomiek a testov.
+	\item Zavedenie konkrétnych opatrení zameraných na dosiahnutie rovnosti vo vzdelávaní, najmä preto, že zraniteľné skupiny sa počas krízových situácií stávajú ešte zraniteľnejšími (získanie počítačov a telekomunikačných balíkov úradmi pre rodiny v ťažkostiach).
+\end{itemize}
+
+\subsection{Zameranie výskumu}
+Výskum, ktorý sa uskutočnil v Rumunsku 
 
 \section{Výhody a nevýhody dištančnej výučby}
 \subsection{Výhody}
@@ -146,14 +168,14 @@ Vývoj podporných systémov je zobrazený na obrázku \ref{Vyvoj_podp_sys_DE}.
 
 
 
-\section{Aplikácia dištančnej výučby v praxi}
-\subsection{Základné a stredné školy}
-\subsection{Vysoké školy}
-\subsection{Virtuálne univerzity}
+%\section{Aplikácia dištančnej výučby v praxi}
+%\subsection{Základné a stredné školy}
+%\subsection{Vysoké školy}
+%\subsection{Virtuálne univerzity}
 
-\section{Efektivita a dopad dištančnej výučby}
-\subsection{Efektívnosť}
-\subsection{Výhody a nevýhody}
+%\section{Efektivita a dopad dištančnej výučby}
+%\subsection{Efektívnosť}
+%\subsection{Výhody a nevýhody}
 
 
 %\acknowledgement{Ak niekomu chcete poďakovať\ldots}
